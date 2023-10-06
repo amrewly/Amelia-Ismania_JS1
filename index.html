@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <h2>JavaScript</h2>
+
+    <!-- Contoh If -->
+    <p><b>Contoh If :</b></p>
+    <label for="usia">Masukkan Usia:</label>
+    <input type="number" id="usia">
+    <button onclick="cekUsia()">Cek Usia</button>
+    <p id="hasilIf"></p> <hr>
+
+    <!-- Contoh If-Else -->
+    <p><b>Contoh If-Else :</b></p>
+    <label for="nilai">Masukkan Nilai (0-100):</label>
+    <input type="number" id="nilai">
+    <button onclick="cekNilai()">Cek Nilai</button>
+    <p id="hasilIfElse"></p> <hr>
+
+    <!-- Contoh Nested If -->
+    <p><b>Contoh Nested If :</b></p>
+    <label for="umur">Masukkan Umur:</label>
+    <input type="number" id="umur">
+    <br>
+    <label for="izinOrangTua">Izin Orang Tua (Ya/Tidak):</label>
+    <input type="text" id="izinOrangTua">
+    <button onclick="cekUmur()">Cek Umur</button>
+    <p id="hasilNestedIf"></p> <hr>
+
+    <!-- Contoh Switch Case -->
+    <p><b>Contoh Switch Case :</b></p>
+    <label for="bulan">Masukkan Angka Bulan (1-12):</label>
+    <input type="number" id="bulan">
+    <button onclick="namaBulan()">Nama Bulan</button>
+    <p id="hasilSwitchCase"></p> <hr>
+
+    <!-- Contoh For Statement -->
+    <p><b>Contoh for :</b></p>
+    <label for="iterasi">Masukkan Jumlah Iterasi:</label>
+    <input type="number" id="iterasi">
+    <button onclick="loopFor()">Loop For</button>
+    <p id="hasilFor"></p> <hr>
+
+    <!-- Contoh While Loop -->
+    <p><b>Contoh While yg increment :</b></p>
+    <label for="angkaWhile">Masukkan Angka (1-5):</label>
+    <input type="number" id="angkaWhile">
+    <button onclick="loopWhile()">Loop While</button>
+    <p id="hasilWhile"></p> <hr>
+
+    <!-- Contoh Do While Loop -->
+    <p><b>Contoh Do While yg decrement :</b></p>
+    <label for="angkaDoWhile">Masukkan Angka (1-5):</label>
+    <input type="number" id="angkaDoWhile">
+    <button onclick="loopDoWhile()">Loop Do While</button>
+    <p id="hasilDoWhile"></p> <hr>
+
+    <!-- Contoh Function -->
+    <p><b>Contoh Function :</b></p>
+    <label for="namaFunction">Masukkan Nama:</label>
+    <input type="text" id="namaFunction">
+    <button onclick="sapa()">Sapa</button>
+    <p id="hasilFunction"></p> <hr>
+    <br><br>
+    <script src="script.js"></script>
+</body>
+</html>
